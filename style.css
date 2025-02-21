@@ -1,4 +1,39 @@
 body {
-
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    flex-direction: column;
+    margin: 0;
 }
 
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-grow: 1;
+    min-height: 400px;
+    padding: 8px;
+    color: #F9FAF8;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+    margin: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
