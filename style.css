@@ -21,6 +21,7 @@ body {
     font-weight: 900;
 }
 
+
 p {
     margin: 0;
 }
@@ -54,29 +55,138 @@ p {
     margin: 8px;
 }
 
+
 a {
     text-decoration: none;
     color: #E5E7EB;
 }
 
-ul {
+li {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
+img {
+    display: flex;
+    align-self: center;
+    margin-bottom: 40px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.middle {
+    min-height:450px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.random {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    align-self: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.card-container {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.info {
+    max-width: 150px;
+}
+
+.card {
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    padding: 16px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 8px;
+}
+
+.card-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .quote {
     background-color: #E5E7EB;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 450px;
 }
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .quote-text {
     font-size: 36px;
-    font-style:italic;
+    font-style: italic;
+    font-weight: 300;
     color: #1F2937;
+}
+
+.thor {
+    font-size: 24px;
+    font-weight: 700;
+    align-self: flex-end;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.sign-up-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #3882F6;
+    min-width: 900px;
+    min-height: 150px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sign-up-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
+    color: #E5E7EB;
+    padding: 4px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.sign-text {
+    display: flex;
+    justify-content: space-between;
+    color: #E5E7EB;
+    font-size: 24px;
+    font-weight: 700;
+}
+.sign-text-sub {
+    color: #E5E7EB;
+    font-weight: 100;
 }
 
 .footer {
